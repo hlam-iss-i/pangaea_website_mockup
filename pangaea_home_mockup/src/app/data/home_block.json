@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "videoUrl": "/media/24_Pangaea_Homepage_Animation_v1.mp4",
+      "hasVideo": true,
+      "height": 725,
+      "group": "home_start"
+    },
+    {
+      "id": 2,
+      "imageUrl": "",
+      "hasVideo": false,
+      "height": 1080,
+      "background": "beige",
+      "group": "home_lab"
+    },
+    {
+      "id": 3,
+      "imageUrl": "/media/impact_static_background.png",
+      "hasVideo": false,
+      "height": 1400,
+      "group": "home_impact"
+    },
+    {
+      "id": 4,
+      "imageUrl": "",
+      "hasVideo": false,
+      "height": 350,
+      "background": "darkorange",
+      "group": "home_quotes"
+    }
+]
+  

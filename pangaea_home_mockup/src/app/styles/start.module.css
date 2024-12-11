@@ -1,0 +1,84 @@
+.overlay {
+    position: absolute;
+    top: 45%;
+    left: 30%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+/* Group 1001 */
+
+.headers {
+    position: flex;
+    width: auto;
+    height: auto;
+    padding-bottom: 7.5%;
+}
+
+.headerBase {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 275;
+    color: #FFFFFF;
+    font-size: 2.479vw;
+    line-height: 81%;
+    position: flex;
+    padding-top: 4%;
+}
+
+/* for Life Sciences */
+.lifeSciences{
+    padding-left: 3.344vw;
+    font-size: 2.25589vw;
+    line-height: 108%;
+    text-align: center;
+}
+
+/* Digital Product */
+.digital {
+    padding-left: 6.331vw;
+    display: flex;
+    align-items: center;
+}
+
+/* Life Cycle Management */
+.management {
+    display: flex;
+    align-items: center;
+}
+
+/* Revolutionizing */
+.revolution {
+    padding-left: 3.125vw;
+    display: flex;
+    align-items: center;
+}
+
+.emphasis {
+    font-weight: 550;
+    color: #ff7e5f;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtext {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 275;
+    text-align: left;
+    padding-left: 38%;
+}
+
+.tagline {
+    font-size: 1.25vw;
+    line-height: 1.5vw;
+    padding-bottom: 15%;
+}
+
+.link {
+    font-size: 1vw;
+    line-height: 1vw;
+}

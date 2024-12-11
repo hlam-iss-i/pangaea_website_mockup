@@ -1,0 +1,30 @@
+.navbar {
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(9,40,46);
+}
+
+.icon {
+    flex-shrink: 0; 
+    width: 12.5%;
+    margin-left: 10%;
+}
+
+.links {
+    display: flex; 
+    gap: 25%;
+    white-space: nowrap;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.link {
+    font-size: 22px;
+    color: white;
+}

@@ -1,0 +1,18 @@
+[
+    {
+      "id": 5,
+      "hasVideo": false,
+      "imageUrl": "/media/team_footer.png",
+      "height": 350,
+      "group": "footer_contact"
+    },
+    {
+      "id": 6,
+      "hasVideo": false,
+      "imageUrl": "",
+      "height": 400,
+      "background": "rgb(9,40,46)",
+      "group": "footer_footer"
+    }
+  ]
+  
