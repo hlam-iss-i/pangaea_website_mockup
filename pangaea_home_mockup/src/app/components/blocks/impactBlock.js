@@ -1,11 +1,13 @@
-import styles from "../../styles/home.module.css";
+import styles from "../../styles/impact.module.css";
+import Carousel from "../carousel";
+import impacts from "../../data/impacts.json";
 
 const ImpactBlock = () => {
     return (
         <div className={styles.overlay}>
             <div>
                 <h2>Spotlighting Our Impact</h2>
-                {/* Insert carousel here */}
+                <Carousel slides={impacts} />
             </div>
             <div>
                 <h3>Our approach</h3>
