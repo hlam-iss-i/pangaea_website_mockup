@@ -8,7 +8,7 @@ const QuotesBlock = () => {
         <div className={styles.overlay}>
             <h2 className={styles.title}>What People Are Saying</h2>
             <div className={styles.carousel}>
-                <Carousel slides={quotes}/>
+                <Carousel slides={quotes} dir="horizontal" height="15vw"/>
             </div>
         </div>
     )

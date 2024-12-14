@@ -1,7 +1,6 @@
 .quoteSwiper {
-    height: 12.5vw;
     position: relative;
-    width: 22.422vw;
+    width: 50vw;
 }
 
 .slide {
@@ -16,5 +15,22 @@
     font-size: 1.25vw;
     line-height: 1.875vw;
     color: white;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
+}
+
+.title {
+    color: #00B59E;
+    margin-top: 50%;
+    margin-bottom: 5%;
+    line-height: 2vw;
+}
+
+.active {
+    opacity: 1;
+    filter: none;
+}
+
+.adjacent {
+    opacity: 0.75;
+    filter: blur(0.25vw);
 }

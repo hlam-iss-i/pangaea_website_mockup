@@ -1,0 +1,20 @@
+[
+    {
+        "text": "Start with precision—our digital tools revolutionize laboratory processes, enabling faster discovery and streamlined early development stages. Experience the power of enhanced data integrity and predictive analytics to accelerate your pipeline and reduce time to trial.",
+        "title": "Innovating at the Source",
+        "source": "LAB",
+        "image": "/media/Lab.png"
+    }, 
+    {
+        "text": "Transition from lab to plant with seamless integration. Our platform ensures that your scaling process is as innovative as your products, with smart automation that optimizes production efficiency. Benefit from reduced cycle times and enhanced quality control, driving your capacity to meet global demand swiftly and reliably.",
+        "title": "Scaling with Intelligence",
+        "source": "PLANT",
+        "image": "/media/Plant.png"
+    }, 
+    {
+        "text": "Elevate your enterprise strategy with a holistic view of your operations. Our end-to-end solution provides unparalleled insights across the product lifecycle, supporting strategic decision-making with real-time data analytics. Position your business at the forefront of the industry with enhanced agility and a robust digital backbone that adapts to market changes and regulatory demands.",
+        "title": "Empowering Global Operations",
+        "source": "ENTERPRISE",
+        "image": "/media/Enterprise.png"
+    }
+]

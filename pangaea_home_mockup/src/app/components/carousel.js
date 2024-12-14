@@ -4,22 +4,37 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import styles from "../styles/carousel.module.css";
 import { Pagination } from 'swiper/modules';
+import { useState } from "react";
 
-const Carousel = ({slides}) => {
+const Carousel = ({slides, dir, height}) => {
+    const [activeSlide, setActiveSlide] = useState(0);
+
+    const handleSlideChange = (swiper) => {
+        setActiveSlide(swiper.activeIndex);
+    }
 
     return (
-        <div className="swiper-container">
+        <div className={styles.container}>
             <Swiper
-                pagination={true}
+                pagination={{clickable: true}}
                 modules={[Pagination]}
                 className={styles.quoteSwiper}
-                key="carousel"
+                direction={dir}
+                slidesPerView={3}
+                spaceBetween={20}
+                onSlideChange={handleSlideChange}
+                centeredSlides={true}
+                style={{"height": height}}
             >
-                {slides.map((slide) => (
-                    <SwiperSlide className={styles.slide}>{slide.text}</SwiperSlide>
+                {slides.map((slide, index) => (
+                    <SwiperSlide className={`${styles.slide} ${index === activeSlide ? styles.active : styles.adjacent}`} key={slide.title}>
+                        <div>
+                            {slide.title.match(/[a-z]/i) ? (<h3 className={styles.title}>{slide.title}</h3>) : (<></>)}
+                            {slide.text}
+                        </div>
+                    </SwiperSlide>
                 ))}
             </Swiper>
-            <div className={styles.custom_pagination}></div>
         </div>
     )
 };

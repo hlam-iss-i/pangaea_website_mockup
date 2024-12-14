@@ -1,9 +1,65 @@
 .overlay {
     position: absolute;
     left: 50%; 
-    top: 10%;
+    top: 5%;
     transform: translateX(-50%);
     text-align: center;
     color: white;
     z-index: 1;
+}
+
+.title {
+    font-family: 'Acumin Pro ExtraCondensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 95%;
+    text-align: center;
+    padding-bottom: 5%;
+    /* Gradient Coloring here */
+    color: #ff7e5f;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.carousel_container {
+    margin-top: -15%;
+    padding-bottom: 5%;
+}
+
+.approach {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938vw;
+    line-height: 1.094vw;
+    letter-spacing: 0.125vw;
+    text-transform: uppercase;
+    color: #00B59E;
+}
+
+.tagline {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+    font-size: 3.906vw;
+    text-align: left;
+}
+
+.emphasis {
+    color: #ff7e5f;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    font-size: 1.406vw;
+    text-align: left;
 }
