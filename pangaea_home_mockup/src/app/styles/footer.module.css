@@ -44,7 +44,7 @@
 }
 
 .titles {
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 171%;
@@ -55,7 +55,7 @@
 }
 
 .links {
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.05vw;
@@ -85,7 +85,7 @@
 
 .footerEnd {
     display: flex;
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 167%;
@@ -99,7 +99,7 @@
 }
 
 .icons {
-    margin-left: 9%;
+    margin-left: 7.5%;
     display: flex;
     gap: 37.5%;
 }

@@ -25,6 +25,7 @@
 }
 
 .link {
-    font-size: 22px;
+    font-size: 1.125vw;
     color: white;
+    font-family: 'acumin-pro', sans-serif;
 }

@@ -12,7 +12,7 @@ const StartBlock = () => {
             </div>
             <div className={styles.subtext}>
                 <p className={styles.tagline}>R&D innovation to<br/>Enterprise Excellence</p>
-                <Link href="/solutions" className={styles.link}>
+                <Link href="/" className={styles.link}>
                     <p className={styles.link_text}>Explore our solutions</p>
                     <img src="/media/svg_arrow_vector_gradient.svg" alt="arrow" className={styles.arrowIcon} />
                 </Link>

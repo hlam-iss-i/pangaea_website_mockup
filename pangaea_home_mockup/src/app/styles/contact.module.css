@@ -9,23 +9,23 @@
 }
 
 .desc_container {
-    width: 20vw;
+    width: 25vw;
 }
 
 .title {
-    font-family: 'Acumin Pro ExtraCondensed';
+    font-family: 'acumin-pro-extra-condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.75vw;
+    font-size: 2vw;
     line-height: 95%;
     padding-bottom: 7.5%;
 }
 
 .description {
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     line-height: 138%;
     padding-bottom: 7.5%;
 }
@@ -40,7 +40,7 @@
 }
 
 .button_text {
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
@@ -53,4 +53,5 @@
 .arrowIcon {
     width: 1.1vw;
     height: 1.1vw;
+    margin-left: -5%;
 }

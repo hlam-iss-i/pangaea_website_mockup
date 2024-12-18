@@ -30,6 +30,7 @@
     opacity: 0;
     z-index: 1;
     border-radius: 9.5px;
+    transition: opacity 0.25s ease-in-out;
 }
 
 .card:hover::before {
@@ -40,22 +41,27 @@
     position: absolute;
     width: 75%;
     height: 100%;
-    top: 20%;
+    top: 25%;
     left: 7.5%;
     display: flex;
     justify-content: start;
     text-align: left;
     z-index: 1;
+    font-family: 'acumin-pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%;
+    font-size: 1.016vw;
 }
 
 .title {
     position: absolute;
     top: 7.5%;
     left: 7.5%;
-    text-align: center;
+    text-align: start;
     color: white;
     z-index: 1;
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro-extra-condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 108%;

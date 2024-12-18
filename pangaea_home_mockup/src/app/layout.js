@@ -14,12 +14,15 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Pangaea Life Technologies",
-  description: "",
+  description: "Pangaea Life Technologies Website Mockup",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="https://use.typekit.net/qwx0qtv.css"/>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

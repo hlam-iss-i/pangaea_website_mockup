@@ -16,7 +16,7 @@
 }
 
 .headerBase {
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro', sans-serif;
     font-style: normal;
     font-weight: 275;
     color: #FFFFFF;
@@ -63,7 +63,7 @@
 }
 
 .subtext {
-    font-family: 'Acumin Pro';
+    font-family: 'acumin-pro', sans-serif;
     font-style: normal;
     font-weight: 275;
     text-align: left;

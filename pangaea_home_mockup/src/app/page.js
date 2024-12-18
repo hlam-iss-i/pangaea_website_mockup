@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./styles/home.module.css";
 import home_block from "./data/home_block.json";
 import footer from "./data/footer.json";
