@@ -1,0 +1,111 @@
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    text-align: left;
+    color: white;
+    z-index: 1;
+    display: flex;
+    gap: 10vw;
+}
+
+.address_container {
+    padding-left: 9.375vw;
+    margin-right: -10%;
+    margin-top: -2%;
+}
+
+.address {
+    padding-top: 7.5%;
+    padding-left: 24%;
+}
+
+.logo {
+    flex-shrink: 0; 
+    width: 50%;
+}
+
+.links_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 7.5vw;
+}
+
+.links_column {
+    flex: 1;
+    min-width: 11.719vw;
+    box-sizing: border-box;
+}
+
+.links_column:first-child {
+    /* This is because product's link names are longer */
+    margin-right: 12.5%;
+}
+
+.titles {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%;
+    font-size: 1.094vw;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #00B59E;
+}
+
+.links {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.05vw;
+    line-height: 1.484vw;
+    padding-top: 5%;
+    text-wrap: nowrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.footerLine {
+    width: 81.5vw; /* Full width */
+    height: 2px; /* Thin line */
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    left: 0;
+    top: 0;
+    transform: translateX(-9%);
+    margin-top: 25%;
+}
+
+.footerEnd {
+    display: flex;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+    font-size: 0.938vw;
+    color: white;
+    align-items: flex-start;
+    width: 100%;
+    gap: 55%;
+    left: 0;
+    transform: translateX(-9%);
+}
+
+.icons {
+    margin-left: 9%;
+    display: flex;
+    gap: 37.5%;
+}
+
+.icon {
+    color: white;
+    font-size: 1.25vw;
+    background-color: transparent;
+}

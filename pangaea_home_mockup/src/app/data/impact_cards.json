@@ -1,0 +1,20 @@
+[
+    {
+        "text": "Testing 123",
+        "title": "Business Process Design",
+        "image": "/media/impact_1.png",
+        "link": "http://localhost:3000/"
+    }, 
+    {
+        "text": "Builds on existing client system landscape and augmented with: Digital Thread for Life Sciences (DTLS), Simplified Manufacturing Process Layer (SiMPL) and Batch Disposition Cockpit (BDC).",
+        "title": "Technologies",
+        "image": "/media/impact_2.png",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+        "text": "We are the people",
+        "title": "People",
+        "image": "/media/impact_3.png",
+        "link": "https://www.youtube.com/watch?v=L_jWHffIx5E"
+    }
+]

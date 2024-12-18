@@ -1,0 +1,56 @@
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    z-index: 1;
+}
+
+.desc_container {
+    width: 20vw;
+}
+
+.title {
+    font-family: 'Acumin Pro ExtraCondensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.75vw;
+    line-height: 95%;
+    padding-bottom: 7.5%;
+}
+
+.description {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 138%;
+    padding-bottom: 7.5%;
+}
+
+.contact_button {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 2.5% 7.5%;
+    width: 50%;
+    display: flex;
+}
+
+.button_text {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    font-size: 1.1vw;
+    padding-right: 12.5%;
+    margin-left: -2.5%;
+    white-space: nowrap;
+}
+
+.arrowIcon {
+    width: 1.1vw;
+    height: 1.1vw;
+}

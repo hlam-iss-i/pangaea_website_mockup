@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "text": "Digital Thread for Life Sciences",
+            "link": "localhost:3000"
+        },
+        {
+            "text": "Simplified Manufacturing Process Layer",
+            "link": "localhost:3000"
+        }, 
+        {
+            "text": "SiMPL Batch Disposition Cockpit",
+            "link": "localhost:3000"
+        }
+    ], 
+    "resources": [
+        {
+            "text": "Spotlight",
+            "link": "localhost:3000"
+        },
+        {
+            "text": "Solutions",
+            "link": "localhost:3000"
+        }, 
+        {
+            "text": "Glossary",
+            "link": "localhost:3000"
+        },
+        {
+            "text": "FAQ",
+            "link": "localhost:3000"
+        }
+    ], 
+    "company": [
+        {
+            "text": "About Us",
+            "link": "localhost:3000"
+        },
+        {
+            "text": "Our Team",
+            "link": "localhost:3000"
+        },
+        {
+            "text": "Contact Us",
+            "link": "localhost:3000"
+        },
+        {
+            "text": "Privacy Policy",
+            "link": "localhost:3000"
+        },
+        {
+            "text": "Terms of Service",
+            "link": "localhost:3000"
+        }
+    ]
+}

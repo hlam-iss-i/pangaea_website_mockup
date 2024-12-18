@@ -8,8 +8,6 @@
     z-index: 1;
 }
 
-/* Group 1001 */
-
 .headers {
     position: flex;
     width: auto;
@@ -79,6 +77,18 @@
 }
 
 .link {
-    font-size: 1vw;
-    line-height: 1vw;
+    font-size: 1.1vw;
+    line-height: 100%;
+    display: flex;
+    width: 10vw;
+}
+
+.link_text {
+    white-space: nowrap;
+    padding-right: 5%;
+}
+
+.arrowIcon {
+    width: 1.05vw;
+    height: 1.05vw;
 }
