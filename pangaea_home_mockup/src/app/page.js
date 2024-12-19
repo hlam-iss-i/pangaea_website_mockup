@@ -38,10 +38,12 @@ export default function Home() {
           >
             {block.hasVideo ? (
                 <div className={styles.mediaContainer}>
-                  <video autoPlay loop muted className={styles.media}>
-                    <source src={block.videoUrl} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  {typeof window !== "undefined" ? (<></>) : (
+                    <video autoPlay loop muted className={styles.media}>
+                      <source src={block.videoUrl} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  )}
                 </div>
               ) : (
                 <div className={styles.mediaContainer}>

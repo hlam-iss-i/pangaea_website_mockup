@@ -50,6 +50,18 @@
     margin-top: -5%;
 }
 
+@media (max-width: 1280px) {
+    .labSwiper {
+        left: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .labSwiper {
+        left: 45%;
+    }
+}
+
 .slideContainer {
     display: flex;
     align-items: center;

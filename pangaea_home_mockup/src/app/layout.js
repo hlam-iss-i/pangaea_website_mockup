@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/qwx0qtv.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

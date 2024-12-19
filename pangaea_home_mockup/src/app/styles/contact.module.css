@@ -31,12 +31,12 @@
 }
 
 .contact_button {
-    display: flex;
-    border: 2px solid white;
-    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    border: 0.156vw solid white;
+    border-radius: 2.344vw;
     padding: 2.5% 7.5%;
     width: 50%;
-    display: flex;
 }
 
 .button_text {

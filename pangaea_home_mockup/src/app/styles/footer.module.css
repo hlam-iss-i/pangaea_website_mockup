@@ -2,27 +2,33 @@
     position: absolute;
     top: 20%;
     left: 0;
-    text-align: left;
+    text-align: start;
     color: white;
     z-index: 1;
     display: flex;
-    gap: 10vw;
+    gap: 5vw;
 }
 
 .address_container {
     padding-left: 9.375vw;
-    margin-right: -10%;
     margin-top: -2%;
+    width: 27.5%;
 }
 
 .address {
-    padding-top: 7.5%;
-    padding-left: 24%;
+    padding-top: 5%;
+    padding-left: 47.5%;
+    font-family: 'acumin-pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    font-size: 0.938vw;
+    text-wrap: nowrap;
 }
 
 .logo {
     flex-shrink: 0; 
-    width: 50%;
+    width: auto;
 }
 
 .links_container {
@@ -69,13 +75,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.563vw;
     width: 100%;
 }
 
 .footerLine {
     width: 81.5vw; /* Full width */
-    height: 2px; /* Thin line */
+    height: 0.156vw; /* Thin line */
     background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
     left: 0;
     top: 0;

@@ -9,7 +9,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 9.5px;
+    border-radius: 0.742vw;
     filter: blur(0);
 }
 
@@ -29,7 +29,7 @@
     background: linear-gradient(131.11deg, #822E2D -1.49%, #C0541B 42.94%, #F09F54 92.8%, #FFDEAD 107.48%);
     opacity: 0;
     z-index: 1;
-    border-radius: 9.5px;
+    border-radius: 0.742vw;
     transition: opacity 0.25s ease-in-out;
 }
 
